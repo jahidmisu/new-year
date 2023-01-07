@@ -10,6 +10,7 @@
    height:500px;
    position: relative;
    margin-top:0px;
+   /*banner position relative because does not work absolute*/
 }
 .banner-side-main{
   text-align:right;
@@ -19,6 +20,7 @@
   transform: translate(-50%, -50%);
   color:black;
 }
+/*button is inline element but this moment we handle button inline block*/
 .btn-primary{
     display:inline-block;
     border:none;
@@ -52,6 +54,7 @@
     font-size:16px;
     color:grey;
 }
+/*image class active cz hande image margin*/
 .active{
     margin-right:30px;
 }
@@ -82,16 +85,19 @@ ul{
     margin-right:auto;
     margin-bottom:150px;
   }
+  /*added background color grident darksalmon*/
   .gradient>img{
     width:70%;
     background-color:darksalmon;
   }
+  /*added footer style*/
   footer{
     background-color:black;
     color:white;
     padding:80px;
     margin-bottom:50px;
   }
+  /*display same line then we use flex because contact all child same line*/
   .contact{
     display:flex;
     justify-content: space-evenly;
@@ -121,6 +127,7 @@ ul{
   .number-email{
     margin-top:25px;
   }
+  /*handle with attribute selector*/
   input[type=email] {
     width:80%;
     color:grey;
