@@ -89,9 +89,54 @@ ul{
   footer{
     background-color:black;
     color:white;
+    padding:80px;
+    margin-bottom:50px;
   }
   .contact{
     display:flex;
     justify-content: space-evenly;
+    align-items:center;
   }
-  
+  .footer-heading{
+    font-size:26px;
+  }
+  .footer-content{
+    margin-top:14px;
+    font-size:13px;
+  }
+  .email{
+    margin-top:14px;
+    font-size:13px;
+  }
+  .number{
+    margin-top:14px;
+    font-size:13px;
+  }
+  .social-media{
+    margin-top:14px;
+  }
+  .footer-right{
+    font-size:24px;
+  }
+  .number-email{
+    margin-top:25px;
+  }
+  input[type=email] {
+    width:80%;
+    color:grey;
+    padding: 14px 20px;
+    margin:16px 0;
+    border:1px solid grey;
+    border-radius:6px;
+    cursor: pointer;
+  }
+  input[type=submit] {
+    width:50%;
+    color:orangered;
+    padding: 12px 16px;
+    background-color:white;
+    margin:16px 0;
+    border:none;
+    border-radius:6px;
+    cursor: pointer;
+  }
